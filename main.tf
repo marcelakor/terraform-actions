@@ -12,8 +12,8 @@ provider "aws" {
   region = "us-east-1" # define region as per your account
 }
 
-resource "aws_s3_bucket" "co_sweet" {
-  bucket = "demo-github-action-tf-medium"
+resource "aws_s3_bucket" "bybybyt" {
+  bucket = "demo-github--action-tf-medium"
 
   object_lock_enabled = false
 
