@@ -22,7 +22,7 @@ resource "aws_s3_bucket" "coucou_sweet" {
   }
 }
 
-resource "aws_instance" "test" {
+resource "aws_instance" "test2" {
   ami           = "ami-026b57f3c383c2eec"
   instance_type = "t2.micro"
 
